@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="trains" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Test2" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+					<Add directory="../Test2" />
+					<Add directory="../Test3" />
+					<Add directory="../Test4" />
+					<Add directory="../AlgoTrains " />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Test2" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+					<Add directory="../Test2" />
+					<Add directory="../Test3" />
+					<Add directory="../Test4" />
+					<Add directory="../AlgoTrains " />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="ACK_INSERT.cpp" />
+		<Unit filename="ACK_INSERT.h" />
+		<Unit filename="AllParticipants.cpp" />
+		<Unit filename="AllParticipants.h" />
+		<Unit filename="Automate.cpp" />
+		<Unit filename="Automate.h" />
+		<Unit filename="Comm.cpp" />
+		<Unit filename="Comm.h" />
+		<Unit filename="Communication.cpp" />
+		<Unit filename="Communication.h" />
+		<Unit filename="INSERT.cpp" />
+		<Unit filename="INSERT.h" />
+		<Unit filename="Message.cpp" />
+		<Unit filename="Message.h" />
+		<Unit filename="NEWSUCC.cpp" />
+		<Unit filename="NEWSUCC.h" />
+		<Unit filename="Participant.cpp" />
+		<Unit filename="Participant.h" />
+		<Unit filename="PerteConn.cpp" />
+		<Unit filename="PerteConn.h" />
+		<Unit filename="Train.cpp" />
+		<Unit filename="Train.h" />
+		<Unit filename="Wagon.cpp" />
+		<Unit filename="Wagon.h" />
+		<Unit filename="fsm.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="pugiconfig.hpp" />
+		<Unit filename="pugixml.cpp" />
+		<Unit filename="pugixml.hpp" />
+		<Unit filename="stateMachine.cpp" />
+		<Unit filename="stateMachine.h" />
+		<Unit filename="threadsafe_queue.h" />
+		<Unit filename="threadsafe_queue.tpp" />
+		<Unit filename="tree.xml" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+			<envvars />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

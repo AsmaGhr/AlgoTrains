@@ -1,0 +1,411 @@
+# depslib dependency file v1.0
+1492992196 source:/home/asma/C++/trains/AllParticipants.cpp
+	"AllParticipants.h"
+	"pugixml.hpp"
+	<iostream>
+	<cstdlib>
+	<string>
+	<unistd.h>
+	<limits.h>
+
+1492956061 /home/asma/C++/trains/AllParticipants.h
+	"Participant.h"
+	<vector>
+
+1493801198 /home/asma/C++/trains/Participant.h
+	<string>
+	<iostream>
+
+1493801248 source:/home/asma/C++/trains/Participant.cpp
+	"Participant.h"
+
+1492542570 source:/home/asma/C++/trains/pugixml.cpp
+	"pugixml.hpp"
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<assert.h>
+	<limits.h>
+	<wchar.h>
+	<math.h>
+	<float.h>
+	<setjmp.h>
+	<istream>
+	<ostream>
+	<string>
+	<new>
+	<stdint.h>
+
+1492882761 source:/home/asma/C++/trains/Thread.cpp
+	"Thread.h"
+	"threadsafe_queue.h"
+	"pugixml.hpp"
+	"AllParticipants.h"
+	"Participant.h"
+	"flatbuffers.h"
+	"Message_generated.h"
+	<thread>
+	<SFML/Network.hpp>
+	<cstdlib>
+
+1492882739 /home/asma/C++/trains/Thread.h
+	<iostream>
+	<queue>
+	<thread>
+	<cstdlib>
+	"threadsafe_queue.h"
+	"pugixml.hpp"
+	"AllParticipants.h"
+	"Participant.h"
+	<SFML/Network.hpp>
+
+1491224196 /home/asma/C++/trains/threadsafe_queue.h
+	<queue>
+	<mutex>
+	<condition_variable>
+	<memory>
+	"threadsafe_queue.tpp"
+
+1491222609 /home/asma/C++/trains/threadsafe_queue.tpp
+	<queue>
+	<mutex>
+	<condition_variable>
+	<memory>
+
+1489948531 /home/asma/C++/trains/flatbuffers.h
+	<assert.h>
+	<cstdint>
+	<cstddef>
+	<cstdlib>
+	<cstring>
+	<string>
+	<utility>
+	<type_traits>
+	<vector>
+	<set>
+	<algorithm>
+	<memory>
+	<functional>
+
+1489954012 /home/asma/C++/trains/Message_generated.h
+	"flatbuffers.h"
+
+1495474091 source:/home/asma/C++/trains/Communication.cpp
+	"Communication.h"
+	"threadsafe_queue.h"
+	"pugixml.hpp"
+	"AllParticipants.h"
+	"Participant.h"
+	"flatbuffers.h"
+	"Automate.h"
+	"stateMachine.h"
+	"Message_generated.h"
+	<thread>
+	<SFML/Network.hpp>
+	<cstdlib>
+	<iostream>
+	<vector>
+
+1493833800 /home/asma/C++/trains/Communication.h
+	<iostream>
+	<queue>
+	<thread>
+	<cstdlib>
+	"threadsafe_queue.h"
+	"pugixml.hpp"
+	"AllParticipants.h"
+	"Automate.h"
+	"Participant.h"
+	<SFML/Network.hpp>
+	<vector>
+
+1495473563 source:/home/asma/C++/trains/main.cpp
+	<iostream>
+	<queue>
+	"Communication.h"
+	"include/Server.h"
+	"flatbuffers.h"
+	"Message_generated.h"
+	"Participant.h"
+
+1491931084 /home/asma/C++/trains/include/Server.h
+	<SFML/Network.hpp>
+
+1492992196 source:/home/asma/C++/trains2/AllParticipants.cpp
+	"AllParticipants.h"
+	"pugixml.hpp"
+	<iostream>
+	<cstdlib>
+	<string>
+	<unistd.h>
+	<limits.h>
+
+1492956061 /home/asma/C++/trains2/AllParticipants.h
+	"Participant.h"
+	<vector>
+
+1493801198 /home/asma/C++/trains2/Participant.h
+	<string>
+	<iostream>
+
+1492542570 source:/home/asma/C++/trains2/pugixml.cpp
+	"pugixml.hpp"
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<assert.h>
+	<limits.h>
+	<wchar.h>
+	<math.h>
+	<float.h>
+	<setjmp.h>
+	<istream>
+	<ostream>
+	<string>
+	<new>
+	<stdint.h>
+
+1493914315 source:/home/asma/C++/trains2/Communication.cpp
+	"Communication.h"
+	"threadsafe_queue.h"
+	"pugixml.hpp"
+	"AllParticipants.h"
+	"Participant.h"
+	"flatbuffers.h"
+	"Automate.h"
+	"Message_generated.h"
+	<thread>
+	<SFML/Network.hpp>
+	<cstdlib>
+	<iostream>
+	<vector>
+
+1493833800 /home/asma/C++/trains2/Communication.h
+	<iostream>
+	<queue>
+	<thread>
+	<cstdlib>
+	"threadsafe_queue.h"
+	"pugixml.hpp"
+	"AllParticipants.h"
+	"Automate.h"
+	"Participant.h"
+	<SFML/Network.hpp>
+	<vector>
+
+1491224196 /home/asma/C++/trains2/threadsafe_queue.h
+	<queue>
+	<mutex>
+	<condition_variable>
+	<memory>
+	"threadsafe_queue.tpp"
+
+1491222609 /home/asma/C++/trains2/threadsafe_queue.tpp
+	<queue>
+	<mutex>
+	<condition_variable>
+	<memory>
+
+1489948531 /home/asma/C++/trains2/flatbuffers.h
+	<assert.h>
+	<cstdint>
+	<cstddef>
+	<cstdlib>
+	<cstring>
+	<string>
+	<utility>
+	<type_traits>
+	<vector>
+	<set>
+	<algorithm>
+	<memory>
+	<functional>
+
+1489954012 /home/asma/C++/trains2/Message_generated.h
+	"flatbuffers.h"
+
+1493833835 source:/home/asma/C++/trains2/main.cpp
+	<iostream>
+	<queue>
+	"Communication.h"
+	"include/Server.h"
+	"flatbuffers.h"
+	"Message_generated.h"
+	"Participant.h"
+
+1491931084 /home/asma/C++/trains2/include/Server.h
+	<SFML/Network.hpp>
+
+1493801248 source:/home/asma/C++/trains2/Participant.cpp
+	"Participant.h"
+
+1493833637 source:/home/asma/C++/trains2/Automate.cpp
+	"Automate.h"
+	"Participant.h"
+	<vector>
+	<iostream>
+
+1493833623 /home/asma/C++/trains2/Automate.h
+	<vector>
+	<iostream>
+	"Participant.h"
+
+1493833637 source:/home/asma/C++/trains/Automate.cpp
+	"Automate.h"
+	"Participant.h"
+	<vector>
+	<iostream>
+
+1493833623 /home/asma/C++/trains/Automate.h
+	<vector>
+	<iostream>
+	"Participant.h"
+
+1493993809 source:/home/asma/C++/trains/stateMachine.cpp
+	<iostream>
+	<memory>
+	"fsm.h"
+	"stateMachine.h"
+
+1493992440 /home/asma/C++/trains/fsm.h
+	<functional>
+	<limits>
+	<map>
+	<vector>
+
+1493992784 /home/asma/C++/trains/stateMachine.h
+
+1492992196 source:/home/asma/C++/AlgoTrains /AllParticipants.cpp
+	"AllParticipants.h"
+	"pugixml.hpp"
+	<iostream>
+	<cstdlib>
+	<string>
+	<unistd.h>
+	<limits.h>
+
+1492956061 /home/asma/C++/AlgoTrains /AllParticipants.h
+	"Participant.h"
+	<vector>
+
+1493801198 /home/asma/C++/AlgoTrains /Participant.h
+	<string>
+	<iostream>
+
+1493833637 source:/home/asma/C++/AlgoTrains /Automate.cpp
+	"Automate.h"
+	"Participant.h"
+	<vector>
+	<iostream>
+
+1493833623 /home/asma/C++/AlgoTrains /Automate.h
+	<vector>
+	<iostream>
+	"Participant.h"
+
+1495473563 source:/home/asma/C++/AlgoTrains /main.cpp
+	<iostream>
+	<queue>
+	"Communication.h"
+	"include/Server.h"
+	"flatbuffers.h"
+	"Message_generated.h"
+	"Participant.h"
+
+1495497370 /home/asma/C++/AlgoTrains /Communication.h
+	<iostream>
+	<queue>
+	<thread>
+	<cstdlib>
+	"threadsafe_queue.h"
+	"pugixml.hpp"
+	"AllParticipants.h"
+	"Automate.h"
+	"Participant.h"
+	<SFML/Network.hpp>
+	<vector>
+
+1491224196 /home/asma/C++/AlgoTrains /threadsafe_queue.h
+	<queue>
+	<mutex>
+	<condition_variable>
+	<memory>
+	"threadsafe_queue.tpp"
+
+1491222609 /home/asma/C++/AlgoTrains /threadsafe_queue.tpp
+	<queue>
+	<mutex>
+	<condition_variable>
+	<memory>
+
+1491931084 /home/asma/C++/AlgoTrains /include/Server.h
+	<SFML/Network.hpp>
+
+1489948531 /home/asma/C++/AlgoTrains /flatbuffers.h
+	<assert.h>
+	<cstdint>
+	<cstddef>
+	<cstdlib>
+	<cstring>
+	<string>
+	<utility>
+	<type_traits>
+	<vector>
+	<set>
+	<algorithm>
+	<memory>
+	<functional>
+
+1489954012 /home/asma/C++/AlgoTrains /Message_generated.h
+	"flatbuffers.h"
+
+1493801248 source:/home/asma/C++/AlgoTrains /Participant.cpp
+	"Participant.h"
+
+1492542570 source:/home/asma/C++/AlgoTrains /pugixml.cpp
+	"pugixml.hpp"
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<assert.h>
+	<limits.h>
+	<wchar.h>
+	<math.h>
+	<float.h>
+	<setjmp.h>
+	<istream>
+	<ostream>
+	<string>
+	<new>
+	<stdint.h>
+
+1493993809 source:/home/asma/C++/AlgoTrains /stateMachine.cpp
+	<iostream>
+	<memory>
+	"fsm.h"
+	"stateMachine.h"
+
+1493992440 /home/asma/C++/AlgoTrains /fsm.h
+	<functional>
+	<limits>
+	<map>
+	<vector>
+
+1493992784 /home/asma/C++/AlgoTrains /stateMachine.h
+
+1495499163 source:/home/asma/C++/AlgoTrains /Communication.cpp
+	"Communication.h"
+	"threadsafe_queue.h"
+	"pugixml.hpp"
+	"AllParticipants.h"
+	"Participant.h"
+	"flatbuffers.h"
+	"Automate.h"
+	"stateMachine.h"
+	"Message_generated.h"
+	<thread>
+	<SFML/Network.hpp>
+	<cstdlib>
+	<iostream>
+	<vector>
+

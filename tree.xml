@@ -1,0 +1,6 @@
+<participants>
+<process id="0" host="asma-X550JX" port="3000"/>
+                                        <process id="1" host="asma-X550JX" port="3001"/>
+                                                <process id="4" host="jelassi-X555LJ" port="2002"/>
+                                                        <process id="5" host="jelassi-X555LJ" port="2003"/>
+                                                                </participants>

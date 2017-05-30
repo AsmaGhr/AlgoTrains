@@ -1,0 +1,12 @@
+namespace Message;
+
+attribute "priority";
+
+table Msg {
+  objet:string;
+  message:string;
+  x:float;
+}
+
+root_type Msg;
+
